@@ -1,0 +1,42 @@
+html {
+    -webkit-scroll-behavior: smooth; /* Chrome, Safari, and newer versions of Edge */
+    scroll-behavior: smooth; /* Standard */
+}
+
+body {
+    min-height: 400vh;
+    padding: 10px;
+    font-family: monospace;
+    position: relative;
+}
+
+div {
+    font-size: 2rem;
+}
+div:nth-child(3) {
+    position: relative;
+    top: 200vh;
+}
+
+div:nth-child(4) {
+    position: relative;
+    top: 370vh;
+}
+
+.up-btn {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: red;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
