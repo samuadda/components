@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: system-ui;
+}
+/* main card container */
+.card {
+    display: flex;
+    width: 38rem;
+    height: 25rem;
+    border-radius: 30px;
+    box-shadow: 1px 4px 20px 20px hsla(241, 81%, 54%, 0.05);
+}
+
+/* shared styles */
+.card .summary,
+.card .score {
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+/* the left side */
+.card .score {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card h3 {
+    opacity: 0.7;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.card .score .circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    position: relative;
+}
+
+.card .score .circle::after {
+    content: "of 100";
+    color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+    font-size: 1rem;
+    position: absolute;
+    top: 70%;
+}
+.card .score .circle span {
+    font-weight: bold;
+}
+
+.card .score .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .score .text h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card .score .text p {
+    max-width: 75%;
+    margin: 0 0 0.5rem 0;
+    opacity: 0.7;
+    font-weight: normal;
+}
+
+/* the right side */
+.card .summary {
+    background-color: hsl(0, 0%, 100%);
+    padding: 0 2rem;
+}
+.card .summary h3 {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.card .summary .components {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+}
+
+.card .summary .components .component {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card .summary .components .component .left {
+    display: flex;
+    align-items: center;
+}
+.card .summary .components .component img {
+    margin-left: 0.5rem;
+}
+
+.card .summary .components .component .left span {
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.card .summary .components .component .right {
+    margin-right: 0.5rem;
+}
+.card .summary .components .component .right span {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+}
+.card .summary .components .component .right .percntege {
+    opacity: 0.7;
+}
+
+.card .summary .components .reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.3);
+}
+.card .summary .components .memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.3);
+}
+.card .summary .components .verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.3);
+}
+.card .summary .components .visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.3);
+}
+
+.card .summary .continue-btn {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 0.3s ease-out;
+}
+
+.card .summary .continue-btn:hover {
+    background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    cursor: pointer;
+    transition: background-image 0.3s ease-out;
+}
+
+/* on phones */
+@media only screen and(max-width: 767px) {
+    .card {
+        flex-direction: column;
+    }
+}
