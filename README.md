@@ -21,3 +21,8 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * View the optimal layout for the interface depending on their device's screen size
 * See hover and focus states for all interactive elements on the page
 <img src="results-summary/assets/images/solution-shot.png" alt="solution-shot" width="400" height="270.27">
+
+### 4- [Qr code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) => [Solution](https://github.com/samuadda/components/tree/main/QR-code)
+#### Requirments
+* the solution should be as identical as possible to the image provided.
+<img src="QR-code/images/solution-shot.png" alt="qr code pic" width="400" height="287.76">
