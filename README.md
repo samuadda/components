@@ -27,8 +27,13 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 <img src="QR-code/images/solution-shot.png" alt="qr code pic" width="400" height="287.76">
 
-### 4- [Order summary](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) => [solution](https://github.com/samuadda/components/tree/main/Order-summary)
+### 5- [Order summary](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) => [solution](https://github.com/samuadda/components/tree/main/Order-summary)
 #### Requirments
 * the solution should be as identical as possible to the image provided.
 * See hover states for interactive elements
 <img src="Order-summary/images/solution-shot.png" alt="music order card" width="400" height="320.256">
+
+### 6- [Profile card](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) => [Solution](https://github.com/samuadda/components/tree/main/Profile-card)
+#### Requirments
+* the solution should be as identical as possible to the image provided.
+<img src="Profile-card/images/solution-shot.png" alt="Profile card component" width="400" height="281.29">
