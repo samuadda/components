@@ -37,3 +37,9 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 #### Requirments
 * the solution should be as identical as possible to the image provided.
 <img src="Profile-card/images/solution-shot.png" alt="Profile card component" width="400" height="281.29">
+
+### 7- [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) => [Solution](https://github.com/samuadda/components/tree/main/Product-preview-card)
+#### Requirments
+* the solution should be as identical as possible to the image provided.
+* See hover states for interactive elements
+<img src="Product-preview-card/images/solution-shot.png" alt="Product card" width="400" height="283.08">
