@@ -43,3 +43,9 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 * See hover states for interactive elements
 <img src="Product-preview-card/images/solution-shot.png" alt="Product card" width="400" height="283.08">
+
+### 8- [NFT preview card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) => [Solution}(https://github.com/samuadda/components/tree/main/NFT-preview-card)
+#### Requirments
+* View the optimal layout depending on their device's screen size
+* See hover states for interactive elements
+<img src="NFT-preview-card/images/solution-shot.png" alt="preview card" width="400" height="286.94">
