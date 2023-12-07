@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+    display: flex;
+    width: 1060px;
+    height: 446px;
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+    border-radius: 5px;
+}
+
+main .text,
+main .image {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+main .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+main .image::after {
+    content: "";
+    background-color: hsl(277, 64%, 61%);
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.8;
+    border-radius: 0 5px 5px 0;
+}
+
+main .text {
+    padding: 60px;
+}
+
+main .text h1 {
+    width: 350px;
+    color: #fff;
+}
+
+main .text h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+main .text p {
+    font-size: 15px;
+    width: 360px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8;
+    margin-bottom: 70px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+}
+
+.metrics .num {
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+.metrics .decrib {
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+}
