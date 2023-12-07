@@ -49,3 +49,8 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * View the optimal layout depending on their device's screen size
 * See hover states for interactive elements
 <img src="NFT-preview-card/images/solution-shot.png" alt="preview card" width="400" height="286.94">
+
+### 9- [Stats preview card](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) => [Solution](https://github.com/samuadda/components/tree/main/Product-preview-card)
+#### Requirments
+* the solution should be as identical as possible to the image provided.
+<img src="stats-preview-card/images/solution-shot.png" alt="Stats preview card" width="800" height="362.349">
