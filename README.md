@@ -60,3 +60,9 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 <img src="3-column-preview-card/images/solution-shot.png" alt="preview card" width="800" height="446.927">
 
+### 11- [Fylo data storage](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n) => [Solution](https://github.com/samuadda/components/tree/main/Fylo-data-storage)
+#### I Have Used HTML and CSS
+* the solution should be as identical as possible to the image provided.
+<img src="Fylo-data-storage/images/solution-shot.png" alt="fylo data storage card" width="800" height="283.788">
+
+
