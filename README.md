@@ -54,3 +54,9 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 #### Requirments
 * the solution should be as identical as possible to the image provided.
 <img src="stats-preview-card/images/solution-shot.png" alt="Stats preview card" width="800" height="362.349">
+
+### 10- [3-column preview card](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) => [Solution](https://github.com/samuadda/components/tree/main/3-column-preview-card)
+#### Requirments 
+* the solution should be as identical as possible to the image provided.
+<img src="3-column-preview-card/images/solution-shot.png" alt="preview card" width="800" height="446.927">
+
