@@ -65,4 +65,9 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 <img src="Fylo-data-storage/images/solution-shot.png" alt="fylo data storage card" width="800" height="283.788">
 
+### 12- [Testimonials grid ](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7) => [Solution](https://github.com/samuadda/components/tree/main/Testimonials-grid)
+#### I Have Used HTML and CSS utilizing Grid System
+* the solution should be as identical as possible to the image provided.
+<img src="Testimonials-grid/images/solution-shot.png" alt="Testimonials grid" width="800" height="417.101">
+
 
