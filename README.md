@@ -70,4 +70,8 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 <img src="Testimonials-grid/images/solution-shot.png" alt="Testimonials grid" width="800" height="417.101">
 
+### 13- [Clipboard landing page](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) => [Solution](https://github.com/samuadda/components/tree/main/Clipboard-landing-page)
+#### I Have Used HTML and CSS utilizing Grid System
+* the solution should be as identical as possible to the image provided.
+<img src="Clipboard-landing-page/images/solution-shot.gif" alt="Clipboard-landing-page" width="800" height="365.965">
 
