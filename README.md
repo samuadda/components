@@ -75,3 +75,8 @@ These are HTML <img src="./images/html-logo.png" alt="html-logo" width="15" heig
 * the solution should be as identical as possible to the image provided.
 <img src="Clipboard-landing-page/images/solution-shot.gif" alt="Clipboard-landing-page" width="800" height="365.965">
 
+### 14- [Fylo landing page](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5) => [Solution](https://github.com/samuadda/components/tree/main/Fylo-landing-page)
+#### I Have Used HTML and CSS utilizing Grid System and Forms
+* the solution should be as identical as possible to the image provided.
+* See hover and focus states for all interactive elements on the page
+<img src="Fylo-landing-page/images/solution-shot.gif" alt="Fylo-landing-page" width="800" height="367.647">
