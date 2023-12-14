@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 2.5% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+.nav-btns div {
+    color: #1a1842;
+    cursor: pointer;
+}
+
+.nav-btns div:hover {
+    opacity: 0.7;
+}
+
+.containor-1 {
+    width: 100%;
+    background-image: url(../ch-12/images/bg-curve-desktop.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paint {
+    width: 45%;
+    margin: 5% 5% 5% 0%;
+}
+
+.text-holder {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 5% 5%;
+}
+
+.text-holder h1 p form {
+    width: 100%;
+}
+
+h1,p {
+    color: #1a1842;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #1a184291;
+    box-shadow: 0 0 3.5px #00000029;
+    padding: 10px;
+    color: #1a184291;
+    margin-right: 1%;
+}
+
+input[type=email]:focus {
+    outline: 1px solid #bdbafa;
+    border: 0;
+}
+
+input[type=submit] {
+    width: 20%;
+    height: 40px;
+    border: 0;
+    background-color: #3434ffeb;
+    color: #e7e6fb;
+    box-shadow: 0 0 3.5px #0000009e;
+}
+
+input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+.containor-2 {
+    width: 100%;
+    background-color: #f8f8fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-info {
+    padding: 10px 10px 10px 0px;
+    color: #3da08f;
+    border-bottom: 2px solid #3da08f;
+    width: fit-content;
+    position: relative;
+}
+
+.extra-info::after {
+    content: url(../ch-12/images/icon-arrow.svg);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    left: 210px;
+}
+
+.extra-info:hover {
+    opacity: 0.8;
+}
+
+.founder-card {
+    width: 61%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0000001f;
+
+}
+
+.founder-card span {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.founder-card p {
+    color: #1a1842;
+}
+
+.id {
+    display: flex;
+}
+
+.id img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.name-and-position {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1a1842;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.containor-3 {
+    width: 100%;
+    background-color: #575989;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containor-3 .text-holder h1, 
+.containor-3 .text-holder p {
+    color: #ffffff;
+}
+.containor-3 .text-holder p {
+    opacity: 0.8;
+}
+
+.containor-3 form {
+    width: 45%;
+    margin: 5% 5% 5% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containor-3 input[type=email] {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #1a184291;
+    box-shadow: 0 0 3.5px #00000029;
+    padding: 10px;
+    color: #1a184291;
+    margin-bottom: 15px;
+}
+
+.containor-3 input[type=submit] {
+    width: 20%;
+    height: 40px;
+    border: 0;
+    background-color: #3434ffeb;
+    color: #e7e6fb;
+    box-shadow: 0 0 2.5px #0000002e;
+}
+
+footer {
+    background-color: #07043B;
+    color: #ffffff;
+}
+
+footer img {
+    margin: 5%;
+    color: #ffffff;
+}
+
+.links {
+    display: flex;
+    margin: 0 5%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+
+.phone,.gmail {
+    display: flex;
+    align-items: center;
+}
+
+
+.phone,.gmail img {
+    margin-right: 10px;
+}
+
+.section-4 img:hover {
+    color: #3434ffeb;
+}
+
+.section-4 {
+    display: flex;
+}
+
+.section-4 img {
+    margin: 0 10px;
+}
+
+.section-1 div,
+.section-2 div,
+.section-3 div {
+    margin-bottom: 10px;
+}
+@media (max-width: 768px ){
+    header {
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    .nav-btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .containor-1 {
+        flex-direction: column;
+    }
+
+    .paint {
+        margin: 5% 0 0 0 ;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .containor-1 {
+        width: 100%;
+        background-image: url(../ch-12/images/bg-curve-desktop.svg);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .text-holder {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0%;
+        padding: 5%;
+        align-items: center;
+    }
+
+    h1,p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .containor-1 form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    input[type=email] {
+        width: 90%;
+        height: 40px;
+        margin:  0 0 5% 0;
+    }
+
+    input[type=submit] {
+        width: 90%;
+        height: 40px;
+    }
+
+    .containor-2 {
+        width: 100%;
+        background-color: #f8f8fe;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .extra-info {
+        text-align: center;
+    }
+    
+    .founder-card {
+        width: 90%;
+    }
+
+    .containor-3 {
+        width: 100%;
+        background-color: #575989;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containor-3 form {
+        width: 90%;
+        margin: 5% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
