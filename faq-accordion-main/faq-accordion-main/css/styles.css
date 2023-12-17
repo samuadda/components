@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+}
+
+.card {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.card .title {
+    display: flex;
+}
+
+.card .title img {
+    width: 35px;
+}
+
+.card .title h1 {
+    color: hsl(292, 42%, 14%);
+    font-size: 2.8rem;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.card .questions {
+    display: flex;
+}
